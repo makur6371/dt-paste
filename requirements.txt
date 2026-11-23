@@ -1,0 +1,13 @@
+# Core
+Pillow>=10.0
+pynput>=1.7.7
+pystray>=0.19.5
+
+# OCR (优先使用 paddleocr，回退方案见 ocr_engine.py)
+paddleocr>=2.7
+paddlepaddle>=2.6
+
+# Windows clipboard image helpers (pystray 自带 win32 依赖，无需 pywin32)
+
+# Build
+pyinstaller>=6.0
